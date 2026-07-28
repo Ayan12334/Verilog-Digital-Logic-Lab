@@ -1,0 +1,26 @@
+# OS Clutter
+.DS_Store
+Thumbs.db
+
+# VS Code Settings
+.vscode/
+
+# Simulation & Waveform Outputs
+*.vcd
+*.vvp
+*.out
+*.log
+
+# Intel Quartus Build Clutter
+db/
+incremental_db/
+*.qws
+*.smsg
+*.rpt
+*.summary
+
+# AMD Vivado Build Clutter
+*.jou
+*.pb
+xsim.dir/
+.Xil/
