@@ -22,15 +22,15 @@ module tb_andGate;
         $dumpfile("dump.vcd");
         $dumpvars(0, tb_andGate);
 
-        // --- Test Case 1: Disabled (enable = 0) ---
+        // Test Case 1: Disabled (enable = 0)
         tb_a = 1; tb_b = 1; tb_enable = 0;
         #10; // Wait 10 nanoseconds
 
-        // --- Test Case 2: Enabled, but b = 0 ---
+        //Test Case 2: Enabled, but b = 0 
         tb_a = 1; tb_b = 0; tb_enable = 1;
         #10;
 
-        // --- Test Case 3: Enabled, both inputs = 1 ---
+        // Test Case 3: Enabled, both inputs = 1 
         tb_a = 1; tb_b = 1; tb_enable = 1;
         #10;
 
