@@ -24,3 +24,7 @@ incremental_db/
 *.pb
 xsim.dir/
 .Xil/
+
+# Icarus Verilog generated files
+*.vvp
+*.vcd
