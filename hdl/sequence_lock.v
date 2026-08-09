@@ -1,4 +1,4 @@
-module sequence_lock (
+module sequenceLock (
     input wire clk,
     input wire rst,    
     input wire data,
