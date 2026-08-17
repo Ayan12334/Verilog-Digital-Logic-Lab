@@ -13,7 +13,7 @@ This project implements a hardware stream cipher in Verilog. It uses a 16 bit Li
 
 The system is fully tested using a master testbench. The simulation feeds an ASCII string into the chip. The waveform below proves that identical input letters produce completely different ciphertext. This confirms the hardware successfully defends against frequency analysis.
 
-![GTKWave Simulation](assets/stream_cipher_waveform.png)
+![GTKWave Simulation](assets/StreamCipherWaveform.png)
 
 ## Compilation and simulation
 
